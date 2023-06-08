@@ -1,0 +1,97 @@
+.searchBody{
+    background-image: url(6fot.jpeg);
+    background-position:center;
+    background-size:cover;
+    margin-bottom: 1%;
+}
+
+.h1{
+    text-align: center;
+    font-weight:bolder;
+    font-size:xx-large;
+    color: white;
+}
+
+.both{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.what{
+    margin-top: 10px;
+    margin-left: 10px ;
+    
+}
+.where {
+    float: right;
+    margin-right: 34%;
+    margin-top: -14%;
+
+}
+.wa{
+    color: white;
+    font-size:xx-large;
+}
+.waa{
+    color: white;
+}
+
+
+.searC1{
+    padding: 15px;
+    padding-right: 15%;
+    
+}
+.searC2{
+    padding: 15px;
+    padding-right: 15%;
+    margin-right: 2px;
+}
+
+.bb{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.bbb{
+   float: right;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 3%;
+   padding-right: 3%;
+   margin-right: -20%;
+   margin-top: -50px;
+   
+}
+.serbut{
+    margin-left: 45%;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    background-color: white;
+    color:black;
+    padding:18px 40px 18px 40px;
+    border-radius: 10px;
+    border-style: none;
+    border-block: none;
+    border-color: white;
+    
+}
+@media screen and (max-width:1200px) {
+    .what , .where{
+        width: 40%;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .what , .where{
+        width: 90%;
+        visibility:visible;
+    }
+    
+}
