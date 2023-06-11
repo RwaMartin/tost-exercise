@@ -1,97 +1,61 @@
-.searchBody{
+.class-goind{
+    width: 105%;
     background-image: url(6fot.jpeg);
-    background-position:center;
     background-size:cover;
-    margin-bottom: 1%;
-}
-
-.h1{
     text-align: center;
-    font-weight:bolder;
-    font-size:xx-large;
+    padding: 50px 0px;
     color: white;
+    margin: 0px 100px 40px 0px
 }
 
-.both{
+.goi{
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 10px -95px;
+}
+
+.what-where{
     width: 100%;
-    height: auto;
-    padding: 20px;
-    margin: 100px auto;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-flow: wrap;
 }
-.what{
-    margin-top: 10px;
-    margin-left: 10px ;
+
+.what-where .what{
+    margin-left: 60px;
+    text-align: left;
+    margin-right: 90px;
+    padding: 20px 20px 40px 5px;
+}
+
+.what-where .where{
+    margin-left:-80px;
+    text-align: left;
+    padding: 20px 20px 40px 10px;
+}
+
+.w-inp{
+    padding: 15px 300px 15px 15px;
+    border:transparent ;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.w-but{
+    padding-top: 28px;
+    padding-bottom: 18px;
+    padding-right: 25px;
+    margin-left: -8px;
+    border: none;
+    background-color: rgb(118, 110, 110);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
     
 }
-.where {
-    float: right;
-    margin-right: 34%;
-    margin-top: -14%;
 
-}
-.wa{
-    color: white;
-    font-size:xx-large;
-}
-.waa{
-    color: white;
-}
-
-
-.searC1{
-    padding: 15px;
-    padding-right: 15%;
-    
-}
-.searC2{
-    padding: 15px;
-    padding-right: 15%;
-    margin-right: 2px;
-}
-
-.bb{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 3%;
-    padding-right: 3%;
-}
-.bbb{
-   float: right;
-   padding-top: 15px;
-   padding-bottom: 15px;
-   padding-left: 3%;
-   padding-right: 3%;
-   margin-right: -20%;
-   margin-top: -50px;
-   
-}
-.serbut{
-    margin-left: 45%;
-    margin-bottom: 50px;
-    margin-top: 40px;
+.fin-but{
+    padding: 18px 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
     background-color: white;
-    color:black;
-    padding:18px 40px 18px 40px;
-    border-radius: 10px;
-    border-style: none;
-    border-block: none;
-    border-color: white;
-    
-}
-@media screen and (max-width:1200px) {
-    .what , .where{
-        width: 40%;
-    }
-    
-}
-@media screen and (max-width:600px) {
-    .what , .where{
-        width: 90%;
-        visibility:visible;
-    }
-    
+    cursor: pointer;
+    margin-left: -80px;
 }
