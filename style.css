@@ -52,9 +52,11 @@ ul li a{
 .search{
     padding: 15px 80px 15px 10px;
     margin-left: -10px;
-    border: none;
+    border: 0px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    background-color: #ffffff;
+    color: #c3c2c2;
     
 }
 .subscribe{
@@ -136,7 +138,7 @@ ul li a{
 }
 
 .sub-down{
-    width: 100%;
+    width: 93%;
     height: 40%;
     background-color: rgb(106, 196, 225);
     padding: 25px 20px 30px 65px;

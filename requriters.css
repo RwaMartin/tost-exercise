@@ -1,0 +1,85 @@
+.reqruiter-top{
+    width: 100%;
+    background-image: url(5fot.JPG);
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+    font-size: xx-large;
+}
+
+.search-email{
+    padding: 40px 0px;
+    background-color: rgb(159, 255, 223);
+    margin: 50px 0px;
+    color: white;
+}
+
+.search-email .recru-search{
+    padding: 20px;
+    text-align: center;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 30px;
+    margin-left: 90px;
+}
+
+.search-email .email-notif{
+    padding: 20px 60px;
+    text-align: center;
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.recru-marketing{
+    padding: 20px 0px 0px 80px;
+    margin: 50px 0px 0px 0px;
+    display: flex;
+}
+
+.recru-but{
+    padding: 25px;
+    border-radius: 100%;
+    font-size: x-large;
+    background-color: rgb(0, 195, 255);
+    border: none;
+    color: white;
+}
+
+.recru-market h2{
+    color: rgb(0, 195, 255) ;
+}
+.recru-market{
+    padding: 40px 100px 20px 90px;
+    margin-bottom: -100px;
+}
+
+.recru-but1{
+    padding: 15px 25px;
+    border: none;
+    background-color: rgb(0, 195, 255) ;
+    color: white;
+    border-radius: 30px;
+}
+
+
+.re-but1{
+    float: left;
+    padding: 60px 0px 10px 0px;
+}
+
+
+.re-but11{
+    float: right;
+    padding: 80px 0px 0px 130px;
+}
+hr{
+    padding: 2px;
+    background-color: rgb(156, 155, 155);
+    margin: 0px 0px 50px 80px;   
+}
+
+.recru-but, .recru-but1{
+    cursor: pointer;
+}
