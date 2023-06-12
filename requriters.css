@@ -21,6 +21,8 @@
     border: none;
     border-radius: 30px;
     margin-left: 90px;
+    outline: none;
+    color: white;
 }
 
 .search-email .email-notif{
@@ -30,6 +32,8 @@
     border: none;
     border-radius: 30px;
     margin-left: 20px;
+    outline: none;
+    color: white;
 }
 
 .recru-marketing{

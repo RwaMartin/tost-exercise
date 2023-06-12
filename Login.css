@@ -1,0 +1,94 @@
+.login-top{
+    width: 100%;
+    background-image: url(5fot.JPG);
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+    font-size: xx-large;
+}
+.log-body{
+    width: 99%;
+    height: 700px;
+    background-color: rgb(0, 115, 255);
+    background-position: center;
+    background-size: cover;
+    position: absolute; 
+    margin: 3% 0% ;
+}
+
+.login-form{
+    width: 380px;
+    height: 540px;
+    position:relative;
+    margin: 6% auto 6% auto;
+    background: #fff;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.login{
+    padding: 10px 10px;
+    color: black;
+}
+
+.login h3{
+    font-weight: lighter;
+}
+
+.login-email , .login-password{
+    padding: 15px;
+    margin: 10px 20px;
+    width: 80%;
+    border-radius: 20px;
+    outline: none;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.log-check{
+    float: left;
+    margin: 10px 0px 0px 20px;
+
+    padding: 4px;
+}
+label{
+    font-size: smaller;
+}
+
+.login-button{
+    float: left;
+    margin: 5px 0px 0px 25px;
+    padding: 15px;
+    width: 88%;
+    background-color: rgb(0, 115, 255);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.login-google , .login-facebook{
+    float: left;
+    padding: 15px;
+    margin: 5px 0px 0px 25px;
+    width: 88%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.login-google {
+    background-color: rgb(222, 61, 61);
+}
+.login-facebook{
+    background-color: rgb(0, 115, 255);
+}
+
+hr{
+    margin: 20% 30px 0px ;
+}
+.log-google {
+    margin: 20px 0px 0px 0px;
+}

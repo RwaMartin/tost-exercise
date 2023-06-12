@@ -29,7 +29,7 @@ ul li a{
     margin-left: 7%; 
     display: flex;  
 }
-.login{
+.login, .loginn{
     background: transparent;
     border: none;
     cursor: pointer;
@@ -56,8 +56,8 @@ ul li a{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     background-color: #ffffff;
-    color: #c3c2c2;
-    
+    color: black;
+    outline: none;
 }
 .subscribe{
     padding: 15px 35px;
@@ -67,6 +67,7 @@ ul li a{
     border: none;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
+    cursor: pointer;
 }
 
 .text{
@@ -157,9 +158,12 @@ ul li a{
 .subs input{
     padding: 30px 940px 30px 15px;
     border-radius: 25px;
-    color: white;
+    color: black;
+    outline: none;
     border: 0px;
+   
 }
+
 .subs button{
     margin: 5px 0px 5px -210px;
     padding: 0px 70px;
@@ -170,6 +174,9 @@ ul li a{
     border: 0px;
 }
 
+.sub-btn{
+    cursor: pointer;
+}
 .footer{
     display: flex;
     width: 100%;
